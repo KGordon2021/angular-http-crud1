@@ -1,0 +1,76 @@
+.menu {
+    width: 100%;
+    height: 90%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu .mat-card{
+    width: 900px;
+    height: 400px;
+    text-align: center;
+    padding: 20px;
+    border:1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 15px 20px 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu .mat-card .mat-card-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%;
+    
+}
+
+.menu .mat-card .mat-card-content .contents {
+    width: 100%;
+    text-align: center;
+    border: 5px solid purple;
+    margin-left: 10px;
+}
+
+.menu .mat-card .mat-card-content .contents .mat-card-title {
+    width: 300px;
+    text-align: center;
+    /* background: blue; */
+    font-size: 29px;
+    font-weight: 540;
+    font-style: oblique;
+    padding: 10px
+}
+
+.menu .mat-card .mat-card-content .contents .desc {
+    font-size: 17px;
+    font-weight: 540;
+    line-height: 1.5rem;
+    margin-top: 20px;
+}
+
+.menu .mat-card .mat-card-content .contents .price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* padding-top: 10px; */
+}
+
+.menu .mat-card .mat-card-content .contents .mat-card-subtitle {
+    font-size: 16px;
+    font-weight: 540;
+    width: 100%;
+    /* text-align: left; */
+    font-style: oblique;
+}
+
+.menu .mat-card .mat-card-content .mat-card-actions {
+    width: 100%;
+}
+
+.menu .mat-card .mat-card-content .mat-card-actions button {
+    background: purple;
+    color: white;
+    width: 40%;
+}
