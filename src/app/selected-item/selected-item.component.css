@@ -67,6 +67,9 @@
 
 .menu .mat-card .mat-card-content .mat-card-actions {
     width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 20px;
 }
 
 .menu .mat-card .mat-card-content .mat-card-actions button {

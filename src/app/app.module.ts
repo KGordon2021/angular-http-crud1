@@ -15,6 +15,8 @@ import { MatToolbarModule} from '@angular/material/toolbar';
     import {MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { SelectedItemComponent } from './selected-item/selected-item.component';
 import { OrdersComponent } from './orders/orders.component';
+import { FooterComponent } from './footer/footer.component';
+import { SliderComponent } from './slider/slider.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { OrdersComponent } from './orders/orders.component';
     HomeComponent,
     AboutComponent,
     SelectedItemComponent,
-    OrdersComponent
+    OrdersComponent,
+    FooterComponent,
+    SliderComponent
   ],
   imports: [
     BrowserModule,
